@@ -1,5 +1,5 @@
 # movie-finder
-A responsive web application that allows users to browse trending movies, search for specific titles, and view detailed information including where to stream them.
+FindAnyMovie is a simple, interactive web application that allows users to search for movies, view trending films, and see detailed information about each movie including release date, runtime, genres, and where to watch them. The project leverages The Movie Database (TMDb) API to fetch movie data dynamically.
 
 Features
 -Trending Movies: Automatically loads the most popular movies of the day on the homepage.
