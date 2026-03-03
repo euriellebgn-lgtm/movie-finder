@@ -19,10 +19,10 @@ async function searchMovie() {
 
   if (query === "") return;
 
-  const url = `${BASE_URL}?api_key=${API_KEY}&query=${query}`;
+  const url = `${BASE_URL}?api_key=${API_KEY}&query=${query}`; //API call
 
   const response = await fetch(url);
-  const data = await response.json();
+  const data = await response.json();  //convert as a JSON
 
   displayMovies(data.results);
 }
@@ -105,5 +105,6 @@ function displayMovies(movies) {
     moviesDiv.appendChild(movieCard);
   });
 }
+
 
 getTrendingMovies();
