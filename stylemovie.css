@@ -1,0 +1,59 @@
+body {background-color: gray;
+width:100vw;
+height: 100vh;
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+}
+
+h1 {font-family: 'Times New Roman';
+font-size: 50px;
+font-weight: bold ;
+color: white;}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+#homeLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {border-radius: 50px;
+    margin: 20px;
+  width: auto;
+    height:30px;
+}
+
+.movie {
+  cursor: pointer;
+}
+
+#bar{position: relative;
+top:0;  
+width: 100%;
+height: 75px;
+background-color: #242424;}
+
+#movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie {
+  background: #222;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movie-details {
+  grid-column: 1 / -1; 
+}
