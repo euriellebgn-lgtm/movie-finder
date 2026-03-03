@@ -24,6 +24,7 @@ Built With
 -Logic: JavaScript (Fetch API, Async/Await)
 
 -API: The Movie Database (TMDB)
+I used the API details available on my TMDB account to get the response data structure and define the results displayed like "<p><strong>Overview:</strong> ${movie.overview}</p>".
 
 
 Usage
